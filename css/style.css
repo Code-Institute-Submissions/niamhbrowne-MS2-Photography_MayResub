@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-* {
-    background-color: #D6E0F0;
-}
+/*----------------------------*/
 .blog-heading h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     text-transform: uppercase;
 }
+
+/*--------------------footer on all pages*/
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f3ece1;
+    color: #9C99A3;
+    text-align: center;
+    list-style: none;
+    display: flex;
+
+}
+
