@@ -33,7 +33,7 @@
 /*-------------------------Code from W3docs.com*/
 .clickButton {
     display: inline-block;
-        background-color: #9C99A3;
+        background-color: #E5C4D1;
         border-radius: 5px;
         border: 4px double #586271;
         color: #FFF0F6;
@@ -45,6 +45,7 @@
         cursor: pointer;
         margin: 5px;
         position: relative;
+
 }
 
 .clickButton p {
@@ -52,6 +53,11 @@
     color: #FFF0F6;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
+}
+
+.contactBtn {
+    text-decoration: none;
+    color: #586271;
 }
 
 /*------------------------------------------------------------------------Blog page*/
@@ -79,6 +85,13 @@ letter-spacing: 3px;
     text-decoration: none;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.readMore {
+    text-decoration: none;
+    color: #E5C4D1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -123,6 +136,10 @@ letter-spacing: 3px;
     text-decoration: none;
     padding-top: 20px;
 }
+.sendText {
+    text-decoration: none;
+    color: #586271;
+}
 
 
 /*----------------------------------------------Kind Words Heading*/
@@ -158,19 +175,38 @@ font-family: 'Playfair Display', serif;
 /*-------------------------------------footer on all pages*/
 
 .social {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: none;
-}
-
-.social ul {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #E5C4D1;
+    display: flex;
+    
+
+}
+.social ul {
     color: #9C99A3;
     text-align: center;
     list-style: none;
-    display: flex;
+    background-color: #E5C4D1;
+}
+
+.social p {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 4px;
+    background-color: #E5C4D1;
+    color: #586271;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.icon {
+    display: inline;
+    color: #586271;
 
 }
 /*-------------------------------------Facebook and Instagram thumbnails*/
