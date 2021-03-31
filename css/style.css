@@ -89,6 +89,18 @@ letter-spacing: 3px;
     font-family: 'Playfair Display', serif;
     text-align: center;
     color: #586271;
+    letter-spacing: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.successBlog p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*-----------------------------------------------------------------------Contact Page*/
