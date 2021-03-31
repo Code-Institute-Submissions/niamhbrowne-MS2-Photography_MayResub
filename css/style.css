@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
     background-color: #FFFBFC;
@@ -29,9 +30,57 @@
     padding-left: 15px;
 }
 /*-----------------------------Enquire now button (home page)*/
+/*-------------------------Code from W3docs.com*/
+.clickButton {
+    display: inline-block;
+        background-color: #9C99A3;
+        border-radius: 5px;
+        border: 4px double #586271;
+        color: #FFF0F6;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        position: relative;
+}
 
+.clickButton p {
+    text-decoration: none;
+    color: #FFF0F6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
 
 /*------------------------------------------------------------------------Blog page*/
+.blogHeading {
+    font-family: 'Playfair Display', serif;
+    color: #586271;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.thumbnail {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.thumbnail h4 {
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+color: #9C99A3;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.thumbnail p {
+    text-decoration: none;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 /*-------------------------------------Image 1 */
 /*-------------------------------------Image 2*/
 /*-------------------------------------Image 3*/
@@ -51,6 +100,14 @@
 /*-----------------------------------------------------------------------Contact Page*/
 /*-------------------------------------Form*/
 /*-------------------------------------Send button*/
+
+.sendButton {
+    float: right;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+
 /*-------------------------------------Image*/
 
 /*----------------------------------------------Kind Words Heading*/
@@ -63,15 +120,16 @@
 
 /*-------------------------------------footer on all pages*/
 
-footer {
+.social {
     padding-top: 5%;
     padding-bottom: 5%;
+    text-decoration: none;
 }
 
-footer ul {
+.social ul {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #f3ece1;
+    background-color: #E5C4D1;
     color: #9C99A3;
     text-align: center;
     list-style: none;
@@ -81,3 +139,9 @@ footer ul {
 /*-------------------------------------Facebook and Instagram thumbnails*/
 
 /*-------------------------------------Legal info at bottom of every page*/
+.legal p {
+    font-style: 'Inter', sans-serif;
+    font-size: smaller;
+    color: #9C99A3;
+    text-align: center;
+}
