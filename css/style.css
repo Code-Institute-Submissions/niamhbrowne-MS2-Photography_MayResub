@@ -179,8 +179,8 @@ font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
 
 /*-------------------------------------footer on all pages*/
@@ -189,10 +189,9 @@ font-family: 'Playfair Display', serif;
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
     background-color: #E5C4D1;
     display: flex;
+    margin: auto;
     
 
 }
@@ -201,6 +200,7 @@ font-family: 'Playfair Display', serif;
     text-align: center;
     list-style: none;
     background-color: #E5C4D1;
+    margin: auto;
 }
 
 .social p {
@@ -211,8 +211,7 @@ font-family: 'Playfair Display', serif;
     letter-spacing: 4px;
     background-color: #E5C4D1;
     color: #586271;
-    padding-right: 50px;
-    padding-left: 50px;
+    margin: auto;
 }
 
 .icon {
@@ -220,7 +219,11 @@ font-family: 'Playfair Display', serif;
     color: #586271;
 
 }
-/*-------------------------------------Facebook and Instagram thumbnails*/
+
+.footer {
+    display: inline;
+}
+
 
 /*-------------------------------------Legal info at bottom of every page*/
 .legal p {
@@ -228,4 +231,6 @@ font-family: 'Playfair Display', serif;
     font-size: smaller;
     color: #9C99A3;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
