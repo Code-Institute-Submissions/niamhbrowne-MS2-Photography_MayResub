@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    background-color: #FFFBFC;
+}
 
 /*-----------------------------------------------------------------Home Page*/
 /*---------------------------Home page title*/
+.homeTitle {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    background-color: #FFF0F6;
+    color: #586271;
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 /*---------------------------Text on home page*/
-
+.homeText {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    background-color: #FFF7FA;
+    color: #212B35;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 /*-----------------------------Enquire now button (home page)*/
 
 
