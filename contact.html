@@ -16,7 +16,7 @@
 <script type="text/javascript">
    (function(){
       emailjs.init("user_zXySNntw5UGsvkPO01Bnv");
-      emailjs.send("Gmail", "photography", {name: "Niamh", notes:"My enquiry is..."});
+
    })();
 </script>
 </head>
@@ -44,7 +44,9 @@
     
 
     <!------------------------------Code from Bootstrap-->
-<div class="container">
+<div class="contactForm">
+    <form onsubmit="return sendMail(this);"></form>
+    <div class="container">
     <div class="row">
         <div class="col-sm">
             <!-----------------Heading for form-->
@@ -82,15 +84,15 @@
   <label for="exampleFormControlTextarea1" class="form-label">Query Message</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
-</div>
+
 <!---------------------------------send button-->
 <div class="sendButton">
     <button><a href="success.html" class="sendText">Send Enquiry</a></button>
 </div>
 
 </div>
-
-
+</div>
+</div>
 <!------------------------------------------------Image for beside the form-->
 <div class="col-sm">
 <img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.0-9/124233279_4150710688289078_6419491887354706963_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=1ke2GRA81W8AX-Tn2zK&_nc_ht=scontent.flhr4-4.fna&oh=caada8bd49752cd0285d7578e18a5cf7&oe=6088A8FD" class="img-fluid" alt="Image of bride on bridge-Dublin">
@@ -174,10 +176,11 @@ Our photos are amazing and we couldn’t have imagined them to turn out as well 
     </div>
     </div>
 </footer>
+
 <!-------------------------------Legal info at bottom of page-->
 <div class="legal">
     <p>The images above are owned by Jude Browne Wedding Stories. Do not copy any images without pre-approved, written consent. Jude Browne Wedding Stories, est. 2012</p>
 </div>
-
+<script src="js/script.js"></script>
 </body>
 </html>
