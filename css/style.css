@@ -81,40 +81,65 @@ letter-spacing: 3px;
     text-align: center;
 }
 
-/*-------------------------------------Image 1 */
-/*-------------------------------------Image 2*/
-/*-------------------------------------Image 3*/
-/*-------------------------------------Image 4*/
-/*-------------------------------------Read more button*/
-/*-------------------------------------Headings*/
-
 
 /*-----------------------------------------------------------------------Blog Success Page*/
 /*--------------------------Headings on blog success pages--*/
-.blog-heading h1 {
+
+.successBlog h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    text-transform: uppercase;
+    color: #586271;
 }
 
 /*-----------------------------------------------------------------------Contact Page*/
 /*-------------------------------------Form*/
+.formHeading  h1 {
+  font-family: 'Playfair Display', serif; 
+  color: #586271; 
+  font-size: 200%;
+  padding-top: 40px;
+}
+.form {
+    padding-top: 50px;
+}
+
 /*-------------------------------------Send button*/
 
 .sendButton {
     float: right;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
+    padding-top: 20px;
 }
 
 
-/*-------------------------------------Image*/
-
 /*----------------------------------------------Kind Words Heading*/
+.kindWords h1 {
+font-family: 'Playfair Display', serif; 
+  color: #586271; 
+  font-size: 300%;
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
 /*-------------------------------------Clients comments*/
+
+.review p {
+    color: #586271;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+
+}
 /*------------------------------------- Couples names*/
 
-
+.review h4 {
+    color: #9C99A3;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+    float: right;
+    padding-bottom: 30px;
+}
 /*-----------------------------------------------------------------------Contact Me form Success page */
 
 
