@@ -171,6 +171,17 @@ font-family: 'Playfair Display', serif;
 }
 /*-----------------------------------------------------------------------Contact Me form Success page */
 
+.submit h1 {
+    color: #586271;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 /*-------------------------------------footer on all pages*/
 
