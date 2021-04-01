@@ -1,187 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="javascript" href="static/js/script.js">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_zXySNntw5UGsvkPO01Bnv");
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_zXySNntw5UGsvkPO01Bnv");
 
-   })();
-</script>
+        })();
+    </script>
 </head>
 
 
 <body>
-    
+
     <!-------------------------------------Nav Bar-->
-<!------------------------------Code from Bootstrap-->
+    <!------------------------------Code from Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Jude Browne Wedding Stories</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" href="blog.html">Blog</a>
-        <a class="nav-link" href="contact.html">Contact Me</a>
-      </div>
-    </div>
-  </div>
-</nav>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Jude Browne Wedding Stories</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-------------------------------------Form for getting in touch with photographer-->
-    
+
 
     <!------------------------------Code from Bootstrap-->
 
     <div class="contactForm">
-<form onsubmit="return sendMail(this);"></form>
-    <div class="container">
+        <form onsubmit="return sendMail(this);"></form>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <!-----------------Heading for form-->
+                    <div class="formHeading">
+                        <h1>If you have an enquiry please fill out form and click send and I'll get back to you as soon
+                            as possible!<br> Thanks, Jude x</h1>
+                    </div>
+                    <div class="form">
+                        <div class="row g-3">
+                            <div class="col">
+
+                                <label for="exampleFormControlInput1" class="form-label">Main Contact First Name</label>
+                                <input type="text" class="form-control" placeholder="First name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="col">
+
+                                <label for="exampleFormControlInput1" class="form-label">Main Contact Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                            <div class="col">
+
+                                <label for="exampleFormControlInput1" class="form-label">Partners First Name</label>
+                                <input type="text" class="form-control" placeholder="First name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="col">
+
+                                <label for="exampleFormControlInput1" class="form-label">Partners Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Query Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <!---------------------------------send button-->
+                        <div class="sendButton">
+                            <button><a href="success.html" class="sendText">Send Enquiry</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!------------------------------------------------Image for beside the form-->
+                <div class="col-sm">
+                    <img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.0-9/124233279_4150710688289078_6419491887354706963_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=1ke2GRA81W8AX-Tn2zK&_nc_ht=scontent.flhr4-4.fna&oh=caada8bd49752cd0285d7578e18a5cf7&oe=6088A8FD"
+                        class="img-fluid" alt="Image of bride on bridge-Dublin">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------Kind Words-->
+    <div class="kindWords">
+        <h1>Kind Words</h1>
+    </div>
+
     <div class="row">
-        <div class="col-sm">
-            <!-----------------Heading for form-->
-    <div class="formHeading">
-    <h1>If you have an enquiry please fill out form and click send and I'll get back to you as soon as possible!<br> Thanks, Jude x</h1>
+        <!------------------------------------------------------Review NO.1-->
+        <div class="review">
+            <p>“We are so so glad that you were our wedding photographer, we have so many amazing images that we will
+                cherish for the rest of our days. We will recommend you until the cows come home!”
+            </p>
+            <h4>— Farrah & Mark ⭐️⭐️⭐️⭐️⭐️</h2>
+
+        </div>
+        <!------------------------------------------------------Review NO.2-->
+        <div class="review">
+            <p>“Jude is a first class photographer. She puts so much thought and effort into her photography. You can
+                tell it is a passion and is effortless to her. Not only that, but Jude is a lovely person. So easy to
+                get along with, very easy going and down to earth. Would highly highly recommend. Thank you so much!”
+            </p>
+            <h4>— Paula & Colm ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.3-->
+        <div class="review">
+            <p>“I cannot speak highly enough of Jude and her skills of capturing the most beautiful and natural moments
+                (all done with no fuss). An amazing photographer who holds a special place with our family. You won't
+                find better!!!.”</p>
+            <h4>— Claire & Gordon ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.4-->
+        <div class="review">
+            <p>“Can't recommend Jude enough she was amazing from start to finish!! She really listened to what we were
+                looking for, took the time to get to know us during our engagement shoot, kept the whole day flowing.”
+            </p>
+            <h4>— Jade & Donal ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.5-->
+        <div class="review">
+            <p>“I can’t recommend Jude Browne enough as a wedding photographer. She was so easy to deal with and is a
+                genuine nice person. She made us feel relaxed and helped the day run smoothly.
+                Our photos are amazing and we couldn’t have imagined them to turn out as well as they did. You can tell
+                by the photos that she didn’t take her eyes off us both all day, capturing such lovely looks at one
+                another and great photos of our friends and family too.”</p>
+            <h4>— Eva & Patrick ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.6-->
+        <div class="review">
+            <p>“I can’t believe how lucky I was to have Jude as my wedding photographer! She has such an amazing, gentle
+                personality! This coupled with her fantastic ideas fitted in with our perfect day and captured it all
+                for us to treasure forever! Jude fulfilled all requests and helped our day run smoothly for us and our
+                guests! Thank you so much.”</p>
+            <h4>— Lynsey & Peter ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.7-->
+        <div class="review">
+            <p>“We are so grateful that as part of our date change in 2020, it meant we booked you for our big day. From
+                the start you were so easy to work with & when I contacted you to say I was thinking of bringing my
+                wedding forward, nothing was a problem & you came up with the brilliant suggestion of coming back for my
+                Day 2 with my friends so I got pics with them AND got to wear my wedding dress for 2 full days! We
+                absolutely love love love all of our pics, they capture our chilled out, fun day & all the emotions of
+                both us & our guests in the most natural way I have ever seen from a photographer. We cannot thank you
+                enough & we will continue to recommend you to everyone we know who is planning their weddings over the
+                next few years. Thank you again from the bottom of our hearts.”</p>
+            <h4>— Sandra & Sean ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+        <!------------------------------------------------------Review NO.8-->
+        <div class="review">
+            <p>“Jude was our photographer 7.11.2020. We lost and regained her with moving dates and venues and by God am
+                so grateful that we regained her. Firstly Jude is such a lovely person to deal with - calm, efficient
+                and relaxed. She made us feel at ease all day. Her style of photography is effortless yet there is so
+                much attention to detail. She is extremely creative, gives good guidance and researches where to get the
+                best shots. We will cherish our pictures for life and are so grateful that Jude was such a big part of
+                our day. We cannot thank you enough.”</p>
+            <h4>— Donna & Paul ⭐️⭐️⭐️⭐️⭐️</h4>
+
+        </div>
+
     </div>
-            <div class="form">
-    <div class="row g-3">
-  <div class="col">
 
-  <label for="exampleFormControlInput1" class="form-label">Main Contact First Name</label>
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-  </div>
-  <div class="col">
+    <!---------------------------Footer with social media links-->
+    <footer>
+        <div class="social">
+            <p>Follow our journey!</p>
+            <div>
 
-  <label for="exampleFormControlInput1" class="form-label">Main Contact Last Name</label>
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-  </div>
-  <div class="col">
+                <ul>
+                    <li class="footer"><a href="https://www.facebook.com/JudeBrownePhotography/?ref=page_internal"
+                            target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="footer"><a href="https://www.instagram.com/judebrownephotography/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
 
-  <label for="exampleFormControlInput1" class="form-label">Partners First Name</label>
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-  </div>
-  <div class="col">
+                </ul>
 
-  <label for="exampleFormControlInput1" class="form-label">Partners Last Name</label>
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-  </div>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Query Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
+            </div>
+        </div>
+    </footer>
 
-<!---------------------------------send button-->
-<div class="sendButton">
-    <button><a href="success.html" class="sendText">Send Enquiry</a></button>
-</div>
-
-</div>
-</div>
-
-<!------------------------------------------------Image for beside the form-->
-<div class="col-sm">
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.0-9/124233279_4150710688289078_6419491887354706963_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=1ke2GRA81W8AX-Tn2zK&_nc_ht=scontent.flhr4-4.fna&oh=caada8bd49752cd0285d7578e18a5cf7&oe=6088A8FD" class="img-fluid" alt="Image of bride on bridge-Dublin">
-</div>
- </div>
-</div>
-</div>
-
-
-<!---------------------------------------------------Kind Words-->
-<div class="kindWords">
-<h1>Kind Words</h1>
-</div>
-
-<div class="row">
-<!------------------------------------------------------Review NO.1-->
-<div class="review">
-<p>“We are so so glad that you were our wedding photographer, we have so many amazing images that we will cherish for the rest of our days. We will recommend you until the cows come home!”
-</p>
-<h4>— Farrah & Mark ⭐️⭐️⭐️⭐️⭐️</h2>
-
-</div>
-<!------------------------------------------------------Review NO.2-->
-<div class="review">
-<p>“Jude is a first class photographer. She puts so much thought and effort into her photography. You can tell it is a passion and is effortless to her. Not only that, but Jude is a lovely person. So easy to get along with, very easy going and down to earth. Would highly highly recommend. Thank you so much!”</p>
-<h4>— Paula & Colm ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.3-->
-<div class="review">
-<p>“I cannot speak highly enough of Jude and her skills of capturing the most beautiful and natural moments (all done with no fuss). An amazing photographer who holds a special place with our family. You won't find better!!!.”</p>
-<h4>— Claire & Gordon ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.4-->
-<div class="review">
-<p>“Can't recommend Jude enough she was amazing from start to finish!! She really listened to what we were looking for, took the time to get to know us during our engagement shoot, kept the whole day flowing.”</p>
-<h4>— Jade & Donal ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.5-->
-<div class="review">
-<p>“I can’t recommend Jude Browne enough as a wedding photographer. She was so easy to deal with and is a genuine nice person. She made us feel relaxed and helped the day run smoothly. 
-Our photos are amazing and we couldn’t have imagined them to turn out as well as they did. You can tell by the photos that she didn’t take her eyes off us both all day, capturing such lovely looks at one another and great photos of our friends and family too.”</p>
-<h4>— Eva & Patrick  ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.6-->
-<div class="review">
-<p>“I can’t believe how lucky I was to have Jude as my wedding photographer! She has such an amazing, gentle personality! This coupled with her fantastic ideas fitted in with our perfect day and captured it all for us to treasure forever! Jude fulfilled all requests and helped our day run smoothly for us and our guests! Thank you so much.”</p>
-<h4>— Lynsey & Peter ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.7-->
-<div class="review">
-<p>“We are so grateful that as part of our date change in 2020, it meant we booked you for our big day. From the start you were so easy to work with & when I contacted you to say I was thinking of bringing my wedding forward, nothing was a problem & you came up with the brilliant suggestion of coming back for my Day 2 with my friends so I got pics with them AND got to wear my wedding dress for 2 full days! We absolutely love love love all of our pics, they capture our chilled out, fun day & all the emotions of both us & our guests in the most natural way I have ever seen from a photographer. We cannot thank you enough & we will continue to recommend you to everyone we know who is planning their weddings over the next few years. Thank you again from the bottom of our hearts.”</p>
-<h4>— Sandra & Sean ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-<!------------------------------------------------------Review NO.8-->
-<div class="review">
-<p>“Jude was our photographer 7.11.2020. We lost and regained her with moving dates and venues and by God am so grateful that we regained her.  Firstly Jude is such a lovely person to deal with - calm, efficient and relaxed. She made us feel at ease all day.  Her style of photography is effortless yet there is so much attention to detail. She is extremely creative, gives good guidance and researches where to get the best shots. We will cherish our pictures for life and are so grateful that Jude was such a big part of our day. We cannot thank you enough.”</p>
-<h4>— Donna & Paul ⭐️⭐️⭐️⭐️⭐️</h4>
-
-</div>
-
-</div>
-
-<!---------------------------Footer with social media links-->
-<footer>
-    <div class="social">
-        <p>Follow our journey!</p>
-    <div>
-        
-        <ul>
-            <li class="footer"><a href="https://www.facebook.com/JudeBrownePhotography/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="footer"><a href="https://www.instagram.com/judebrownephotography/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        
-        </ul>
-    
+    <!-------------------------------Legal info at bottom of page-->
+    <div class="legal">
+        <p>The images above are owned by Jude Browne Wedding Stories. Do not copy any images without pre-approved,
+            written consent. Jude Browne Wedding Stories, est. 2012</p>
     </div>
-    </div>
-</footer>
-
-<!-------------------------------Legal info at bottom of page-->
-<div class="legal">
-    <p>The images above are owned by Jude Browne Wedding Stories. Do not copy any images without pre-approved, written consent. Jude Browne Wedding Stories, est. 2012</p>
-</div>
-<script src="static/js/script.js"></script>
+    <script src="static/js/script.js"></script>
 </body>
+
 </html>

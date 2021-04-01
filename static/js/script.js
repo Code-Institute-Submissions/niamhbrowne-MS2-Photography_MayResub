@@ -4,12 +4,13 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "enquiry_message": contactForm.projectsummary.value
     })
-    .then(
-        function(response){
-            console.log("SUCCESS", response);
-        },
-        function(error){
-            console.log("FAILED", error);
-        });
-    
-    return false;}
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+            },
+            function (error) {
+                console.log("FAILED", error);
+            });
+
+    return false;
+}
