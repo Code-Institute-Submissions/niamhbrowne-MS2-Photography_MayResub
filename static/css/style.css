@@ -24,6 +24,8 @@
   padding-bottom: 20px;
   color: #586271;  
   text-align: center;
+  border-bottom: 9px solid #E5C4D1;
+  border-top: 9px solid #E5C4D1;
 }
 
 .homeTitle {
@@ -35,6 +37,8 @@
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
+    border-bottom: 9px solid #E5C4D1;
+    border-top: 9px solid #E5C4D1;
 }
 
 /*---------------------------Text on home page*/
@@ -83,6 +87,16 @@
 }
 
 /*------------------------------------------------------------------------Blog page*/
+.blogTop {
+  font-family: 'Playfair Display', serif;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #586271;  
+  text-align: center;
+  border-bottom: 9px solid #E5C4D1;
+  border-top: 9px solid #E5C4D1;
+}
+
 .blogHeading {
     font-family: 'Playfair Display', serif;
     color: #586271;
@@ -90,6 +104,8 @@
     letter-spacing: 5px;
     padding-top: 40px;
     padding-bottom: 40px;
+    border-bottom: 9px solid #E5C4D1;
+    border-top: 9px solid #E5C4D1;
 }
 
 .thumbnail {
@@ -129,6 +145,7 @@ letter-spacing: 3px;
     letter-spacing: 5px;
     padding-top: 30px;
     padding-bottom: 20px;
+    border-bottom: 9px solid #E5C4D1;
 }
 
 .successBlog p {
@@ -139,6 +156,8 @@ letter-spacing: 3px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    border-bottom: 9px solid #E5C4D1;
+    border-top: 9px solid #E5C4D1;
 }
 
 /*----------------------------------Google Maps*/
@@ -157,6 +176,7 @@ div#map {min-height: 360px;}
   color: #586271; 
   font-size: 200%;
   padding-top: 40px;
+
 }
 .form {
     padding-top: 50px;
@@ -185,6 +205,8 @@ font-family: 'Playfair Display', serif;
   text-align: center;
   letter-spacing: 5px;
   padding-bottom: 30px;
+  border-bottom: 9px solid #E5C4D1;
+  border-top: 9px solid #E5C4D1;
 }
 /*-------------------------------------Clients comments*/
 
@@ -261,6 +283,7 @@ font-family: 'Playfair Display', serif;
 
 .footer {
     display: inline;
+    float: inherit;
 }
 
 
