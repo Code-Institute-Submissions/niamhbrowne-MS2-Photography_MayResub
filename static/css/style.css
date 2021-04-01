@@ -7,8 +7,25 @@
     background-color: #FFFBFC;
 }
 
+/*---------------------------------------------------Navbar*/
+#nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #586271;
+    background-color: #FFF0F6;
+}
+
+
 /*-----------------------------------------------------------------Home Page*/
-/*---------------------------Home page title*/
+/*---------------------------Home page titles*/
+.title {
+  font-family: 'Playfair Display', serif;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #586271;  
+  text-align: center;
+}
+
 .homeTitle {
     padding-top: 40px;
     padding-bottom: 40px;
