@@ -46,6 +46,7 @@
         margin: 5px;
         position: relative;
 
+
 }
 
 .clickButton p {
@@ -58,6 +59,7 @@
 .contactBtn {
     text-decoration: none;
     color: #586271;
+    margin: auto;
 }
 
 /*------------------------------------------------------------------------Blog page*/
