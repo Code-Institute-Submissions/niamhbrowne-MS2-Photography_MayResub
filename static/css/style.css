@@ -71,10 +71,12 @@
     color: #586271;
     text-align: center;
     letter-spacing: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .thumbnail {
-    padding-top: 40px;
+    padding-top: 70px;
     padding-bottom: 30px;
 }
 
@@ -125,6 +127,11 @@ letter-spacing: 3px;
 /*----------------------------------Google Maps*/
 
 div#map {min-height: 360px;}
+
+#map {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 /*-----------------------------------------------------------------------Contact Page*/
 /*-------------------------------------Form*/
