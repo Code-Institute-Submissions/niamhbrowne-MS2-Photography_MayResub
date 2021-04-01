@@ -10,24 +10,27 @@
 /*-----------------------------------------------------------------Home Page*/
 /*---------------------------Home page title*/
 .homeTitle {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: 'Playfair Display', serif;
     background-color: #FFF0F6;
     color: #586271;
     padding-right: 10px;
     padding-left: 10px;
+    text-align: center;
 }
 
 /*---------------------------Text on home page*/
 .homeText {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 200;
     letter-spacing: 3px;
     background-color: #FFF7FA;
     color: #212B35;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 20px;
+    text-align: center;
 }
 /*-----------------------------Enquire now button (home page)*/
 /*-------------------------Code from W3docs.com*/
@@ -110,12 +113,13 @@ letter-spacing: 3px;
 }
 
 .successBlog p {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 3px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 /*-----------------------------------------------------------------------Contact Page*/
@@ -160,6 +164,9 @@ font-family: 'Playfair Display', serif;
     color: #586271;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 3px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
 
 }
 /*------------------------------------- Couples names*/
@@ -168,8 +175,10 @@ font-family: 'Playfair Display', serif;
     color: #9C99A3;
     letter-spacing: 5px;
     font-family: 'Playfair Display', serif;
-    float: right;
+    text-align: right;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 /*-----------------------------------------------------------------------Contact Me form Success page */
 
