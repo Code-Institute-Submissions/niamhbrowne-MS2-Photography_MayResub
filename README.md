@@ -21,8 +21,8 @@
 #### Wireframes
 
 
-##### Jude Browne Wedding Stories(Home)
-<img src="" alt="">
+##### Home
+<img src="static/wireframes/home.png" alt="wireframe for home page">
 
 ##### Blog
 <img src="" alt="">
