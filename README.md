@@ -3,7 +3,7 @@
 <p>For my second milestone project I have chosen to create a website for a wedding Photographer. The website has a navigation bar at the top of each page allowing the user to navigate their way through the page.  There are three main pages which are linked in the navigation bar; Jude Browne Wedding Stories (home page), Blog and Contact page. The blog and contact page have buttons and links directing users to new pages.</p>
 
 ## UX
-<p>I want to create a website that allows visiting users to easily navigate their way through the website. To do this  </p>
+<p>I want to create a website that allows visiting users to easily navigate their way through the website. To do this I will create a sticky nav bar which will allow useres to easily navigate their way through the website even if they're at the bottom of a page.  I want to include google maps so the visiting user can easily see where the photographer has taken pictures previously and have a contact form for visiting users to send enquiries straight to the photographer.<br><br> I want the page to look simplistic and don't want to look too busy so it's a relaxing experience for the visiting user. When couples are choosing their wedding photographer they want to choose someone that isn't going to make their special day feel hectic and therefore having a simplistic, professional website is key to give the impression that the photographer is a relaxed person and won't bring any additional stress to their special day. </p>
 
 ### <em>User Stories</em>
 <ul>
@@ -16,7 +16,7 @@
 
 ## <em>Design Process</em>
 
-<p>I have designed wireframes to help me plan my project and follow an idea of what I want the finished project to look like and function.</p>
+<p>I have designed wireframes to help me plan my project and follow an idea of what I want the finished project to look like and function. The website won't look exactly like the wireframes as new design ideas are presented when developing the pages.</p>
 
 #### Wireframes
 
@@ -38,13 +38,23 @@
 
 ### Home
 
-<p></p>
-<img src="" alt="">
+<p>I wanted to keep the home page simplistic.  It has a sticky navbar at the top of the page which allows visiting users to easily visit the other pages at any stage. There's a button beside the hero image which directs the visiting user straight to the contact page to send the photographer an enquiry. I have added information about the wedding photographer on the home page as well to allow the visiting user a chance to get to know the photographer.  On the bottom of the page there is a footer which says follow our journey and has links to the photographers social media accounts.</p>
+<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167712595_833438217254810_6591930710717721580_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=KEVT6f6pVkYAX_XyMFn&_nc_ht=scontent.flhr4-4.fna&oh=b6ef2ae7d9a52feb9ba267ceb5d01a0c&oe=608C8F97" alt="screenshot of Home page">
+<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/167984704_833438237254808_4821559815975347457_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=7NO5-i3pseEAX8hYqK5&_nc_ht=scontent.flhr4-1.fna&oh=d327efd74c32648df3de9433a69b4fb6&oe=608B1026" alt="screenshot of Home page">
+<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/167472351_833438193921479_5629203414433544497_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=KoA-W1uZJmEAX945Ecq&_nc_ht=scontent.flhr4-3.fna&oh=812106b578b42f5833d81ccac52c245d&oe=608A5E70" alt="screenshot of Home page">
 
 ### Blog
 
-<p></p>
-<img src="" alt="">
+<p>The blog page has a sticky navbar that is always visible to visiting users. There are four thumbails with links to blog success pages which more information on them about each wedding.  There's a google map on the blog page with cluster markers displaying where the photographer has taken pictures previously. At the bottom of the page there's a footer which has links to the photographers social media links, Facebook and Instagram.  This allows visiting users to check out the photographers other accounts.</p>
+<img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.6435-9/167886680_833440793921219_6299246640164755823_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=hxT6gKr6nzEAX_3tEGq&_nc_ht=scontent.flhr4-2.fna&oh=3528efe1d2f3e89abfac4f34997d78c3&oe=608C74BC" alt="screenshot of blog">
+<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/168389422_833440777254554_7651499020957965057_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=B7Mh5QLKpkEAX-faF8T&_nc_ht=scontent.flhr4-1.fna&oh=736b5fcb2ae96d42bcb3f8667e3a000e&oe=608D77EB" alt="screenshot of blog">
+
+### Blog Success pages
+
+<p>For the blog success pages I kept it simple with a header stating the couples names and their wedding venue, pictures of their wedding and a piece of text describing their day.  The pages also have a sticky navbar and footer page with social media links.</p>
+<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167680326_833443523920946_5599976735763265245_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=_cHnKdTcKx0AX8d6DWh&_nc_ht=scontent.flhr4-4.fna&oh=a1b05cf0831c6006feee0f82f0dc5310&oe=608B9AF1" alt="screenshot of blog success page">
+<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/168521103_833443547254277_5512745123559133750_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=JtVpwIcruJ4AX_XSTJB&_nc_ht=scontent.flhr4-3.fna&oh=c55fceb5fa89ba708fdaf9ab11da3c6f&oe=608A9D9E" alt="screenshot of blog success page">
+<img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.6435-9/168424343_833443570587608_8712481641509618183_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=Dpv0w-Ekb18AX_himBE&_nc_ht=scontent.flhr4-2.fna&oh=cee94683755b87346c24bf4473c7cc97&oe=608B52AA" alt="screenshot of blog success page">
 
 ### Contact 
 
@@ -65,6 +75,7 @@
 </ul>
 
 ## Technologies Used
+
 
 ## Testing
 
