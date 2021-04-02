@@ -69,38 +69,44 @@
 ## Features Left to Impliment
 
 <ul>
-<li></li>
-<li></li>
+<li>Add to the blog post by including more weddings that the photographer has covered.</li>
+<li>Add to the Google Maps clusters to show more venues that the photographer has taken photos.</li>
 <li></li>
 </ul>
 
 ## Technologies Used
-
+For my second milestone project I used a number of technologies to assist in developing my website.  I used Bootstrap throughout the project to create, the navbar, hero image and enquiry form. I used Google Maps to create a map on the blog page to show visiting users where the photographer has previously taken pictures.  I also used EmailJS to connect the contact form to an email address. I used the google search engine to help me solve problems with my code, find inspiration for the design on the website through looking at other wedding photography sites. I used the google search engine to find out how to code certain aspects as well.<br><br> I used the <a href="https://www.color-hex.com/" target="_blank">color-hex</a> to find colours that would suit the page throughout the project as well.</p>
 
 ## Testing
+<p>I used HTML, CSS and Javascript validators to test the coding aspect of my project and they passed for both. As for the visual aspect of the project I tested it through opening it on a web page browser and clicking on all the links in the navigation menu and reading through each section. I also inspected the code on the browser and looked at it on the IPad Pro and mobile phone devices to make sure it was working on all screen sizes. I clicked through all the links on the navigation bar to ensure there were no broken links and that external links opened on a new tab. I used the contact form to ensure it was working and also moved the google maps around to make sure it was working as well.</p>
 
 ## Deployment
-
+<p>I used Gitpod to code the web page and then pushed it to Github. I used clear, descriptive and short commit messages throughout the project to show clearly each step of the project. I used the preview on Gitpod and open browser to see the design during the process of coding. Once finished coding I tested the web page by opening the web page on a browser to make sure all changes were saved and working properly.</p>
 ## External Dependencies
-<p>I used google fonts throughout the project for the font family.</p>
+<ul>
+<li>I used google fonts throughout the project for the font family.</li>
+<li>I used invision for the wireframes.</li>
+<li>I used Google Maps Documentation for the google maps on the blog.</li>
+<li>I used EmailJS for the contact form.</li>
+</ul>
 
 ## Credits
 ### Where I got my content Form
-<p></p>
+<p>I got all of my content from Jude Browne Wedding Stories.  I got permission from the photographer to use her information however it was public anyway.  I used her current webpage for the content and her social media accounts for images. Jude had content on her page that I used throughout the development of my milestone project for example, the information on the blog and home page.</p>
 
 ### Acknowledgements
 <p>Below are links to pages I looked at for inspirations.</p>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li><a href="https://www.judebrownephotography.com/" target="_blank">Jude Browne Wedding Stories</a></li>
+<li><a href="https://www.savethedatephoto.com/?https://www.savethedatephoto.com/" target="_blank">Save The Date</a></li>
+<li><a href="https://www.treasureboxphotos.co.uk/" target="_blank">Treasure Box</a></li>
+<li><a href="https://www.allisterfreeman.co.uk/" target="_blank">Allister Freeman</a></li>
 </ol>
 
 <p>Below are links to websites that I got bits of code from.</p>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap</a></li>
+<li><a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/3b2af8636ea54a4d9dc45126f7498633/?child=last" target="_blank">Code Institute</a></li>
+<li><a href="https://developers.google.com/maps/documentation/javascript/examples/marker-clustering#all" target="_blank">Goggle Maps Doc</a></li>
+<li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
 </ol>
