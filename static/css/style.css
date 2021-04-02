@@ -195,6 +195,14 @@ div#map {min-height: 360px;}
     color: #586271;
 }
 
+/*-------------------------------Image of contact page*/
+
+.contactimg {
+    width: 300px;
+    height: auto;
+
+}
+
 
 /*----------------------------------------------Kind Words Heading*/
 .kindWords h1 {
@@ -242,6 +250,17 @@ font-family: 'Playfair Display', serif;
     padding-left: 50px;
     padding-top: 90px;
     padding-bottom: 70px;
+}
+
+.successImg {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 70px;
+    margin-top: 40px;
+}
+
+.bottom {
+    padding-bottom: 30px;
 }
 
 /*-------------------------------------footer on all pages*/
