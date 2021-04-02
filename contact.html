@@ -29,20 +29,20 @@
     <!-------------------------------------Nav Bar-->
     <!------------------------------Code from Bootstrap-->
 
-        <nav class="sticky-top" id="nav">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    
+    <nav class="sticky-top" id="nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
 
     <!-------------------------------------Form for getting in touch with photographer-->
 
@@ -61,64 +61,65 @@
                     </div>
                     <div class="form">
                         <form>
-  <form>
-  <div class="form-row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Main Contact Name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Partners Name">
-    </div>
-    <div class="col">
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="col">
-      <input type="message" class="form-control" placeholder="Message">
-    </div>
-  </div>
+                            <form>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Main Contact Name"
+                                            required>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Partners Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                                            required>
+                                    </div>
+                                    <div class="col">
+                                        <input type="message" class="form-control" placeholder="Message">
+                                    </div>
+                                </div>
 
-<!------------------------------------------------Image for beside the form-->
-                <div class="col">
-                    <img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.0-9/124233279_4150710688289078_6419491887354706963_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=1ke2GRA81W8AX-Tn2zK&_nc_ht=scontent.flhr4-4.fna&oh=caada8bd49752cd0285d7578e18a5cf7&oe=6088A8FD"
-                        class="img-fluid" alt="Image of bride on bridge-Dublin">
+                                <!------------------------------------------------Image for beside the form-->
+                                <div class="col">
+                                    <img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.0-9/124233279_4150710688289078_6419491887354706963_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=1ke2GRA81W8AX-Tn2zK&_nc_ht=scontent.flhr4-4.fna&oh=caada8bd49752cd0285d7578e18a5cf7&oe=6088A8FD"
+                                        class="img-fluid" class="contactimg" alt="Image of bride on bridge-Dublin">
+                                </div>
+                    </div>
                 </div>
+                </form>
+
+                <!---------------------------------send button-->
+                <div>
+                    <button type="button" class="btn btn-primary sendButton" data-toggle="modal"
+                        data-target="#exampleModal"><a href="success.html" class="sendText">Send Enquiry</a></button>
+                </div>
+
             </div>
         </div>
-        </form>
 
-                        <!---------------------------------send button-->
-                        <div class="sendButton">
-                            <button><a href="success.html" class="sendText">Send Enquiry</a></button>
-                        </div>
+        <!-- Modal -->
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Enquiry Sent to Jude Browne Wedding Stories</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>THANKS FOR SUBMITTING AN ENQUIRY! I'LL TRY MY BEST TO GET BACK TO YOU AS SOON AS POSSIBLE!
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Close</button>
 
                     </div>
                 </div>
-                <!-- Button trigger modal -->
-<button class="sendButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Send Enquiry
-</button>
+            </div>
+        </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Enquiry sent to Jude Browne Wedding Stories</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Thanks for submitting an enquiry! I'll try my best to get back to you as soon as possible!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-                
     </div>
 
 
