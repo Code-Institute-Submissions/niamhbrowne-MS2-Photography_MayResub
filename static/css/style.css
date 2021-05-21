@@ -277,7 +277,7 @@ font-family: 'Playfair Display', serif;
 
 /*-------------------------------------Legal info at bottom of every page*/
 .legal p {
-    font-style: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: smaller;
     color: #9C99A3;
     text-align: center;
