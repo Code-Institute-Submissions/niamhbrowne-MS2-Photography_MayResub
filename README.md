@@ -27,7 +27,7 @@
 <li>Information about the photographer</li>
 <li>Footer with links to social media accounts</li>
 <li>Legal info at the bottom of the page stating that the photos belong to photographer</li>
-</ul>
+</ul> 
 
 ### Blog
 <ul>
@@ -88,16 +88,16 @@
 <p>I have designed wireframes to help me plan my project and follow an idea of what I want the finished project to look like and function. The website won't look exactly like the wireframes as new design ideas are presented when developing the pages.</p>
 
 ### Home
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/167511687_833238010608164_8902555739231555496_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=CO9LltFVBzkAX9uqem6&_nc_ht=scontent.flhr4-1.fna&oh=f3b045757ee97b16d891c8c8add438a3&oe=608A14D2" alt="wireframe for home page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/167511687_833238010608164_8902555739231555496_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=WQD8G-J1LvIAX8fZ5Vs&_nc_ht=scontent.fgla3-2.fna&oh=285c2994fad27287bf91ac3d30f5674a&oe=60CD5152" alt="wireframe for home page">
 
 ### Blog
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/167663338_833237860608179_2156602920989274948_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=L3YpQLRXBfEAX8dCxpg&_nc_ht=scontent.flhr4-3.fna&oh=1fb8d05fc30f6cddf9e70dfcb7cee17e&oe=608D0A2D" alt="wireframe of blog page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/167663338_833237860608179_2156602920989274948_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=4RhdFCV30FsAX_V3Xsk&_nc_ht=scontent.fgla3-1.fna&oh=e081958bb52df57f3cfb3d015fd02146&oe=60CC522D" alt="wireframe of blog page">
 
 ### Blog Success Page
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167511689_833237613941537_7103705459137860542_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=6XoIfbL6dSEAX83dwPo&_nc_ht=scontent.flhr4-4.fna&oh=ca9e39ef1facfa42208cb91e35c23587&oe=608CF721" alt="wireframe of blog success page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/167511689_833237613941537_7103705459137860542_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=i_baMfBsiN0AX-imxhu&_nc_ht=scontent.fgla3-1.fna&oh=2fbb3e172ab85fd1f5c5fdba3d355ff0&oe=60CC3F21" alt="wireframe of blog success page">
 
 ### Contact
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/168404271_833237677274864_4584967000204297675_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=PyiQoz_GIz8AX8ciHhc&_nc_ht=scontent.flhr4-3.fna&oh=a4a530141b720203528c8edf936f3da5&oe=608B1571" alt="wireframe of contact page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/168404271_833237677274864_4584967000204297675_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=eXOjfm8ZD3QAX-7zo0K&_nc_ht=scontent.fgla3-2.fna&oh=c8fbc770da52e9b6d5612e2f1916ae04&oe=60CE51F1" alt="wireframe of contact page">
 
 
 ## Technologies Used
@@ -126,40 +126,41 @@ For my second milestone project I used a number of technologies to assist in dev
 ### Validation
 <p>I used the <a href="https://validator.w3.org/" target="_blank">W3 HTML Validator</a>, <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3 CSS Validator</a> and the <a href="https://jshint.com/" target="_blank">JSHint Validator</a> to test the code for my milestone 2 project which they have all passed.</p>
 
+
 ### Testing Against User Stories
 
 #### Home
 
 <p>I wanted to keep the home page simplistic.  It has a sticky navbar at the top of the page which allows visiting users to easily visit the other pages at any stage. There's a button beside the hero image which directs the visiting user straight to the contact page to send the photographer an enquiry. I have added information about the wedding photographer on the home page as well to allow the visiting user a chance to get to know the photographer.  On the bottom of the page there is a footer which says follow our journey and has links to the photographers social media accounts.</p>
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167712595_833438217254810_6591930710717721580_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=KEVT6f6pVkYAX_XyMFn&_nc_ht=scontent.flhr4-4.fna&oh=b6ef2ae7d9a52feb9ba267ceb5d01a0c&oe=608C8F97" alt="screenshot of Home page">
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/166450907_833531607245471_5057903339712135063_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=5q_1x1d36EUAX-G2Fw_&_nc_ht=scontent.flhr4-1.fna&oh=0e9946446572ba904e03f3a8bcb76690&oe=608B23A1" alt="screenshot of Home page">
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/167472351_833438193921479_5629203414433544497_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=KoA-W1uZJmEAX945Ecq&_nc_ht=scontent.flhr4-3.fna&oh=812106b578b42f5833d81ccac52c245d&oe=608A5E70" alt="screenshot of Home page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/189681308_862362254362406_4846657518635768740_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=Y_1ZL5YBNsoAX9LRmep&_nc_ht=scontent.fgla3-1.fna&oh=ed503585244df634c7d5df748091525e&oe=60CD0705" alt="screenshot of Home page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/188122660_862362277695737_8878427800408802184_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=oROE57mwb-8AX_djrtS&_nc_ht=scontent.fgla3-2.fna&oh=0f0248bae79214b2ea7d13ff386cd89d&oe=60CCE3AC" alt="screenshot of Home page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/189925861_862362157695749_2202216716510405446_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=4k1dmrQjNKkAX-aci9X&_nc_ht=scontent.fgla3-1.fna&oh=54026da98f266907d0a75ca33e7854cc&oe=60CE32F1" alt="screenshot of Home page">
 
 #### Blog
 
 <p>The blog page has a sticky navbar that is always visible to visiting users. There are four thumbails with links to blog success pages which more information on them about each wedding.  There's a google map on the blog page with cluster markers displaying where the photographer has taken pictures previously. At the bottom of the page there's a footer which has links to the photographers social media links, Facebook and Instagram.  This allows visiting users to check out the photographers other accounts.</p>
-<img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.6435-9/167886680_833440793921219_6299246640164755823_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=hxT6gKr6nzEAX_3tEGq&_nc_ht=scontent.flhr4-2.fna&oh=3528efe1d2f3e89abfac4f34997d78c3&oe=608C74BC" alt="screenshot of blog">
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/168389422_833440777254554_7651499020957965057_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=B7Mh5QLKpkEAX-faF8T&_nc_ht=scontent.flhr4-1.fna&oh=736b5fcb2ae96d42bcb3f8667e3a000e&oe=608D77EB" alt="screenshot of blog">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/191059195_862362197695745_3833000505694655589_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=lBcAyT89wc0AX_wHOMm&_nc_ht=scontent.fgla3-2.fna&oh=c847662b04e98affcebb85dd9991325a&oe=60CE6BEA" alt="screenshot of blog">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/187676538_862362204362411_1378878987000578005_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=uUCkKSDWNQUAX9vWd_a&_nc_ht=scontent.fgla3-2.fna&oh=9cad8a2df300ecf88be9160d4cd86a62&oe=60CD73D4" alt="screenshot of blog">
 
 #### Blog Success pages
 
 <p>For the blog success pages I kept it simple with a header stating the couples names and their wedding venue, pictures of their wedding and a piece of text describing their day.  The pages also have a sticky navbar and footer page with social media links.</p>
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167680326_833443523920946_5599976735763265245_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=_cHnKdTcKx0AX8d6DWh&_nc_ht=scontent.flhr4-4.fna&oh=a1b05cf0831c6006feee0f82f0dc5310&oe=608B9AF1" alt="screenshot of blog success page">
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/168521103_833443547254277_5512745123559133750_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=JtVpwIcruJ4AX_XSTJB&_nc_ht=scontent.flhr4-3.fna&oh=c55fceb5fa89ba708fdaf9ab11da3c6f&oe=608A9D9E" alt="screenshot of blog success page">
-<img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.6435-9/168424343_833443570587608_8712481641509618183_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=Dpv0w-Ekb18AX_himBE&_nc_ht=scontent.flhr4-2.fna&oh=cee94683755b87346c24bf4473c7cc97&oe=608B52AA" alt="screenshot of blog success page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189757051_862362341029064_2000110414351545243_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=jNyxCcPD7q8AX-Jalxi&_nc_ht=scontent.fgla3-2.fna&oh=8494fc4280beffaef60e458de53ce58f&oe=60CD8BB8" alt="screenshot of blog success page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189484335_862362241029074_7597186656560195937_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=730e14&_nc_ohc=fvmb6RovnukAX_mwToH&_nc_ht=scontent.fgla3-2.fna&oh=8639d88a2da790a8ce169f680abd429c&oe=60CF402A" alt="screenshot of blog success page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189660718_862362317695733_6428264957757682807_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=X_PrBkWXSZ0AX-UQNyg&_nc_oc=AQmdH6Y2vQgSLOWOYS-M6W95YNrU5CLRJDzlly8ucofpJItG_kvO0oemVLCrpTrVjWOWeDTpjEvANY0MLL0HqS6U&_nc_ht=scontent.fgla3-2.fna&oh=e2dd847460aca59c73619fa6e69de168&oe=60CF0090" alt="screenshot of blog success page">
 
 #### Contact 
 
 <p>For the contact page I wanted to create a contact form for visiting users to send their enquiries straight to the photographer.  AS you can see in the screenshots that has been done. There is a send button that links to the form success page which allows the user to see that their enquiry was successfully sent. The page has a sticky navbar to allow visiting users to navigate their way through the page at all times.  In the footer there are links to the social media accounts as well so they can easily find the photographers social networking sites. The page also has a kind words section which displays reviews from past clients of the photographer.</p>
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/165705270_833534987245133_3537462423509749212_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=ku4vMBnBQ-0AX_VopBW&_nc_ht=scontent.flhr4-1.fna&oh=72449c4def77b6107062d60ce53775bc&oe=608D97A0" alt="screenshot of contact page">
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/168602062_833534997245132_3287222244650088567_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=I29skpwT_60AX8WizVr&_nc_ht=scontent.flhr4-1.fna&oh=5da1da8b9e6f5277b64111ec21f90b7b&oe=608ACC36" alt="screenshot of contact page">
-<img src="https://scontent.flhr4-2.fna.fbcdn.net/v/t1.6435-9/167803801_833483893916909_1919285331552890257_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=GNyOr40Nnl8AX96OOFx&_nc_ht=scontent.flhr4-2.fna&oh=dc0792c949194a9dffdabf5a849ca390&oe=608B22D6" alt="screenshot of contact page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/188797920_862362324362399_6584211340193110009_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=2bnuFSDY3HUAX-iU4py&_nc_ht=scontent.fgla3-1.fna&oh=c63dc83aeb0e46638c4740a4e867672c&oe=60CD3F19" alt="screenshot of contact page">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/188863182_862362141029084_6663290456617949673_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=03y8YHeE8vkAX-gLa9C&_nc_ht=scontent.fgla3-2.fna&oh=2490460b03f3398b9deca333de8b7da6&oe=60CC6380" alt="screenshot of contact page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/189807258_862362151029083_1648801195508096942_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=8nwBvZoCsZUAX-m6gQO&_nc_ht=scontent.fgla3-1.fna&oh=ab9d11e2d9596f1cff8010bf7b5e20b8&oe=60CCB6C9" alt="screenshot of contact page">
 
 #### Contact Success Page
 
 <p>The contact success page has a sticky navbar that is always visible to visiting users to allow them to find their way back to the main page. The is a message displayed on the page which lets the user know that their enquiry has been sent off to the photographer.  There are two images on this page as well give the page some interest.  At the bottom of the page there is a footer with the photographers social media accounts linked and under the footer there is a paragraph for the legal information, informing viewers that the photos are owned by the photographer.</p>
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167829903_833483940583571_4674865641855525451_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=MmmRX9VslusAX-eKdS5&_nc_ht=scontent.flhr4-4.fna&oh=d75b381c47093a32f1b0eb6d98e1e6d1&oe=608D5133" alt="screenshot of form success page">
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/168424563_833483960583569_7506347647136451520_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=_5i5GPeU1YkAX82dWdn&_nc_ht=scontent.flhr4-4.fna&oh=ec0da818eec12a96a73f795d2195f5df&oe=608BF3D8" alt="screenshot of form success page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/167829903_833483940583571_4674865641855525451_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=ll6MGHzDoN0AX8PzSyP&_nc_ht=scontent.fgla3-1.fna&oh=441fc0c43d97088a364c76ce196e6137&oe=60CC9933" alt="screenshot of form success page">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/168424563_833483960583569_7506347647136451520_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=J2bJ5Dgmq14AX9KF_KZ&_nc_ht=scontent.fgla3-1.fna&oh=d37fb46bd09b8fec65eac99695bdacca&oe=60CF3058" alt="screenshot of form success page">
 
 
 ### Fixed Bugs
@@ -172,12 +173,12 @@ Below I have listed bugs that I found in my code and resolved
 
 ### Supported Screens and Browsers
 <p>As seen in the screenshots below I have tested the website on the Ipad Pro screen and from the screenshots above you can see the webpage on a browser screen</p>
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/167803805_833550920576873_8867612497508415479_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=H6X3-RXEvxMAX8N5S3K&_nc_ht=scontent.flhr4-3.fna&oh=7db3c21d590f493270e90932d6b42019&oe=608CE3A8" alt="screenshot of image on ipad pro">
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/168306593_833550883910210_370137984645321790_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=730e14&_nc_ohc=iepjmzjeLFcAX_cyypO&_nc_ht=scontent.flhr4-4.fna&oh=d72f7e52099db729cf9600d20640c98c&oe=608B7C1C" alt="screenshot of image on ipad pro">
-<img src="https://scontent.flhr4-3.fna.fbcdn.net/v/t1.6435-9/168042603_833550877243544_1878728637852866488_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=lOBiKtoPl1gAX8pG4Ju&_nc_ht=scontent.flhr4-3.fna&oh=81fac85793b3c79e80da914b23bb077f&oe=608CAD3E" alt="screenshot of image on ipad pro">
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/167785027_833550950576870_7521874434327098760_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=i-BjOUm6J3QAX9iyLJ0&_nc_ht=scontent.flhr4-1.fna&oh=9e30aba41825a217bf0f4b6e478fb19e&oe=608E0B39" alt="screenshot of image on ipad pro">
-<img src="https://scontent.flhr4-1.fna.fbcdn.net/v/t1.6435-9/167816581_833550900576875_6269999770869293805_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=yCefq75OA0wAX-tIZtm&_nc_ht=scontent.flhr4-1.fna&oh=2cff16e65a64e99eb40ecd0d9115a615&oe=608B4A27" alt="screenshot of image on ipad pro">
-<img src="https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/167399326_833552407243391_6787665019921557020_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=cOht4PdAuywAX-q5i8m&_nc_ht=scontent.flhr4-4.fna&oh=371d580d0cb1fe65be66919f1bb418e2&oe=608C20DB" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189891574_862365574362074_4599122903790861279_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=G8a0s5-QZZkAX97ruCm&_nc_ht=scontent.fgla3-2.fna&oh=996a755e333f7b4a9f36a3ce1a15804c&oe=60CCDD43" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189633980_862365564362075_4980469855021359810_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=rzcQWfTuTwgAX_-HKBu&_nc_ht=scontent.fgla3-2.fna&oh=4a0404c332008029802dbaec5b80f5f3&oe=60CCB374" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/189418891_862365547695410_6908004162619872063_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=sIxZVnHg1b4AX-c2iP8&_nc_ht=scontent.fgla3-2.fna&oh=c5185dc2d0b5fcf8ced2760205a5e228&oe=60CD02C9" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/188985126_862365607695404_6089684394909659187_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_ohc=4QGoYieIT3sAX-Y5gYn&_nc_ht=scontent.fgla3-1.fna&oh=5b88b941a250ba1848746d24b35c498e&oe=60CCF821" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-2.fna.fbcdn.net/v/t1.6435-9/188300091_862365604362071_2063857519613663068_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=730e14&_nc_ohc=aPGahuzRCK0AX9yUip7&_nc_ht=scontent.fgla3-2.fna&oh=a059bf46bda2db87b4cde2141439a80a&oe=60CD774F" alt="screenshot of image on ipad pro">
+<img src="https://scontent.fgla3-1.fna.fbcdn.net/v/t1.6435-9/189216045_862365534362078_6129271751113918870_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=uHTsgp_YbcsAX9K8WzZ&_nc_ht=scontent.fgla3-1.fna&oh=3e48c7213922d3813533c6913b3e73fa&oe=60CE2078" alt="screenshot of image on ipad pro">
 
 ## Deployment
 <p>I used Gitpod to code the web page and then pushed it to Github. I used clear, descriptive and short commit messages throughout the project to show clearly each step of the project. I used the preview on Gitpod and open browser to see the design during the process of coding. Once finished coding I tested the web page by opening the web page on a browser to make sure all changes were saved and working properly.</p>
