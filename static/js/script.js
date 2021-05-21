@@ -7,6 +7,7 @@ function sendMail(contactForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
+                redirect();
             },
             function (error) {
                 console.log("FAILED", error);
@@ -19,3 +20,6 @@ function sendMail(contactForm) {
 
 $('.carousel').carousel()
 
+function redirect() {
+    window.location.href="success.html";
+    }
