@@ -51,42 +51,6 @@
     padding-top: 20px;
     text-align: center;
 }
-/*-----------------------------Enquire now button (home page)*/
-/*-------------------------Code from W3docs.com*/
-.clickButton {
-    
-    margin-left: auto;
-    margin-right: auto;   
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: #E5C4D1;
-        border-radius: 5px;
-        border: 4px double #586271;
-        color: #FFF0F6;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        
-        position: relative;
-
-
-}
-
-.clickButton p {
-    text-decoration: none;
-    color: #FFF0F6;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-.contactBtn {
-    text-decoration: none;
-    color: #586271;
-    margin: auto;
-}
 
 /*------------------------------------------------------------------------Blog page*/
 .blogTop {
@@ -171,6 +135,7 @@ div#map {min-height: 360px;}
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 /*-----------------------------------------------------------------------Contact Page*/
 /*-------------------------------------Form*/

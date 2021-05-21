@@ -14,3 +14,8 @@ function sendMail(contactForm) {
 
     return false;
 }
+
+//---------------------------------------------Carousel
+
+$('.carousel').carousel()
+
